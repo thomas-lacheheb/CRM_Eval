@@ -19,3 +19,8 @@ In the container
 ```
 $ php bin/console doctrine:migrations:migrate
 ```
+
+## To start the tests
+```
+$ docker run --rm -w /home/exo -v ${PWD}:/home/exo php:latest ./vendor/bin/phpunit tests
+```
