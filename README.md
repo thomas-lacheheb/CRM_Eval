@@ -1,5 +1,9 @@
 # CRM_Eval
 
+## Configure environment variables
+Create a .env file based on the .env.sample file at the root of the directory
+Fill the variables with your settings
+
 ## Install dependencies
 ```
 $ docker run --rm -w /home/exo -v ${PWD}:/home/exo composer:latest install
